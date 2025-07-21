@@ -4,19 +4,27 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "@lumaai/luma-web": "^0.2.2",
+    "@react-spring/three": "^10.0.1",
+    "@react-three/drei": "^9.96.3",
+    "@react-three/fiber": "^8.15.11",
+    "leva": "^0.10.0",
+    "motion": "^12.12.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.157.0",
+    "three-stdlib": "^2.36.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
